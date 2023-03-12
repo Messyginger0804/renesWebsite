@@ -7,7 +7,7 @@ function Home() {
         // <div className='mt-2'
         // style='background-image: url("https://media.istockphoto.com/id/479426374/photo/lawn-mower.jpg?s=612x612&w=0&k=20&c=5R0YQA4V-ePnn1m6KxPYyonZgfZYPaVk3V0Gjh1xkxI=" )'
         // >
-        <div className='grid grid-rows-2'>
+        <div className='grid grid-rows-2 py-4'>
             <img className='w-full' src="https://media.istockphoto.com/id/479426374/photo/lawn-mower.jpg?s=612x612&w=0&k=20&c=5R0YQA4V-ePnn1m6KxPYyonZgfZYPaVk3V0Gjh1xkxI=" alt="landscaping-photo" />
             <div className='text-center'>
                 <ul className='font-bold'>

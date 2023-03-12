@@ -32,8 +32,8 @@ function Contact() {
             <div className='pb-20 flex flex-col gap-3 justify-center items-center md:visible'>
                 <h1 className='text-6xl font-bold'>Rene Guillen</h1>
                 <small>Owner</small>
-                <a className='flex align-center text-center gap-2 items-center text-xl' href=''><FaPhoneVolume className='text-2xl' />214-779-4259</a>
-                <a className='flex align-center gap-2 items-center text-xl' href=''><MdEmail className='text-2xl' />TFLS@gmai.com</a>
+                <a className='flex align-center text-center gap-2 items-center text-xl hover:underline' href=''><FaPhoneVolume className='text-2xl hover:underline' />214-779-4259</a>
+                <a className='flex align-center gap-2 items-center text-xl hover:underline' href=''><MdEmail className='text-2xl' />TFLS@gmai.com</a>
             </div>
         </div>
     )
