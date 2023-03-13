@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* * {
+    text-decoration-color: whitesmoke;
+} */
+
 html {
     padding: 0%;
     margin: 0%;
     height: 100%;
     width: 100%;
-    background: radial-gradient(ellipse at center, #9bcb32 20%, #328a26 80%);
+    background: radial-gradient(ellipse at center, rgb(202, 53, 53) 20%, black 80%);
     overflow: scroll;
+    /* text-decoration-color: whitesmoke; */
 }
 
 main {
