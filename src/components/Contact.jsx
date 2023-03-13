@@ -26,7 +26,7 @@ function Contact() {
                         <input className='resize-none w-full p-1 border-2 border-green-700' type='email' name='email' placeholder='youremail@email.com' required />
                         <textarea className='resize-none w-full p-1 border-2 border-green-700' name='message' rows='7' placeholder='your message' required></textarea>
                     </div>
-                    <button type="submit" className='hover:bg-white hover:text-black bg-black p-2 text-slate-200 border-2 border-sky-400'>Send Message</button>
+                    <button type="submit" className='hover:bg-white hover:text-black bg-black p-2 text-slate-200 border-2 border-[gold]'>Send Message</button>
                 </form>
             </div>
             <div className='pb-20 flex flex-col gap-3 justify-center items-center md:visible'>
