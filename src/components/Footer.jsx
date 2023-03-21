@@ -15,7 +15,7 @@ function Footer() {
                     </Link>
                 </div>
                 <div className='grid grid-cols-2 ml-auto'>
-                    <a className='hover:scale-105' href='https://www.facebook.com/profile.php?id=100086916005109&mibextid=LQQJ4d'><AiOutlineFacebook className='text-6xl' /></a>
+                    <a className=' hover:cale-105' href='https://www.facebook.com/profile.php?id=100086916005109&mibextid=LQQJ4d'><AiOutlineFacebook className='text-6xl' /></a>
                     <div className='grid ml-auto px-2'>
                         <h2 className='font-bold'>Contact Us</h2>
                         {/* <small>Rene Guillen</small> */}
