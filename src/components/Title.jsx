@@ -4,7 +4,7 @@ function Title() {
     return (
         <div className='w-full font-poppins pb-6'>
             <h1 className='p-1 font-cursive text-4xl text-center shadow-md shadow-amber-300 text-slate-100'>Call Us & Get A Free Quote!</h1>
-            <ul className='flex gap-4 justify-center text-slate-100 font-sans p-4 text-centeli'>
+            <ul className='flex gap-4 justify-center text-slate-100 font-sans p-4 text-centeli  pl-[10%] pr-[10%]'>
                 <li>Shrub Trimming</li>
                 <li>Tree Trimming</li>
                 <li>Clean-up/Leaf Pick-up</li>

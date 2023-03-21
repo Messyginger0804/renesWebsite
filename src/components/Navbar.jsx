@@ -23,7 +23,7 @@ function Navbar() {
                     <ul className='flex justify-evenly'>
                         <Link to='/'><li className='p-6 cursor-pointer hover:underline hover:text-blue-500'>home</li></Link>
                         <Link to='/about'><li className='p-6 cursor-pointer hover:underline hover:text-blue-500'>about</li></Link>
-                        <Link to='/contact'><li className='p-6 cursor-pointer hover:underline hover:text-blue-500'>conact</li></Link>
+                        <Link to='/contact'><li className='p-6 cursor-pointer hover:underline hover:text-blue-500'>contact</li></Link>
                     </ul>
                 </div>
             </div>
