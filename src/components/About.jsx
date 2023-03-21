@@ -6,8 +6,8 @@ function About() {
             <div className='w-full h-fit float-left px-2'>
                 <img src="https://media.istockphoto.com/id/149360161/photo/manicured-house-and-garden.jpg?s=612x612&w=0&k=20&c=QM7ussZ_9IjiMbUUIusbKmXNRgTYy__C1XpZnQx2BKQ=" alt="lawn-exmple" />
             </div>
-            <p className='mb-10 pb-10 text-slate-100'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam neque beatae officia eveniet quis possimus, mollitia provident magni quia sint quaerat reiciendis voluptatibus natus fugit iure consequuntur culpa? Accusamus, aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. ! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati alias dolore ad, minima laborum animi at culpa. Quidem non dicta laborum odio, unde minus magnam, architecto porro error suscipit nesciunt! Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt ipsam eos doloremque odit soluta, saepe velit ratione non error laudantium voluptatem quasi itaque quisquam, in, quia fuga. Voluptatibus, velit est.
-                <span className='text-5xl'>THIS WILL BE YOUR MISSION STATEMENT</span>
+            <p className='mb-10 pb-10 text-slate-100'>Top Flight Lawn Services is a trusted and reliable local lawn service company that specializes in providing high-quality lawn care solutions to residential and commercial customers. Our team of experienced professionals is passionate about creating and maintaining beautiful, healthy lawns that enhance the curb appeal of your property. We offer a wide range of services, including lawn mowing, tree trimming, gutter cleaning, weed control more. At Top Flight Lawn Services, we pride ourselves on delivering personalized and tailored services that meet the unique needs of each customer. Contact us today to get started and let us make your lawn the envy of the neighborhood!
+                {/* <span className='text-5xl'>THIS WILL BE YOUR MISSION STATEMENT</span> */}
             </p>
         </div>
         // </div >

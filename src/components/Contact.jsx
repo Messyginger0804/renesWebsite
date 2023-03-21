@@ -30,7 +30,7 @@ function Contact() {
                 </form>
             </div>
             <div className='pb-20 flex flex-col gap-3 justify-center items-center md:visible'>
-                <h1 className='text-6xl font-bold'>Rene Guillen</h1>
+                <h1 className='text-6xl font-bold text-[rgb(255,255,255,2)]'>Rene Guillen</h1>
                 <small>Owner</small>
                 <a className='flex align-center text-center gap-2 items-center text-xl hover:underline text-slate-100' href=''><FaPhoneVolume className='text-2xl hover:underline text-slate-100' />214-779-4259</a>
                 <a className='flex align-center gap-2 items-center text-xl hover:underline text-slate-100' href=''><MdEmail className='text-2xl' />mowtopflight@gmail.com</a>
