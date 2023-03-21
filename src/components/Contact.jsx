@@ -1,25 +1,27 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { FaPhoneVolume } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import emailjs from '@emailjs/browser';
 
-// MdEmail
 
-
-// FaPhoneVolume
 
 function Contact() {
+    const form = useRef();
     const sendEmail = (e) => {
-        // e.preventDefault();
+        e.preventDefault()
 
-        // emailjs.sendForm('service_yykgw9e', 'template_s2t184g', form.current, '_0eJeVE_0upDw61qU')
+        emailjs.sendForm('service_0fdj2mx', 'template_s2t184g', form.current, '_0eJeVE_0upDw61qU')
+        e.target.reset();
 
     };
+
+
     return (
         // <div className='grid grid-cols-2 gap-8'>
         <div className='flex flex-wrap justify-center gap-8 my-[10%]'>
             <div>
-                <form onSubmit={sendEmail} className='flex-col px-grow '
-                // ref={form} onSubmit={sendEmail(e)}
+                <form className='flex-col px-grow '
+                    ref={form} onSubmit={sendEmail}
                 >
                     <div className='shadow-lg shadow-blue-50'>
                         <input className='resize-none w-full p-1 border-2 border-green-700' type='text' name='name' placeholder='full name' required />
