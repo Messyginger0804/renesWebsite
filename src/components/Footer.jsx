@@ -7,7 +7,7 @@ import logo from '../assets/logo1.jpg'
 
 function Footer() {
     return (
-        <footer >
+        <footer className='min-h-full'>
             <div className='bg-black w-full h-fit flex items-center px-[15%] bottom-0 text-slate-100'>
                 <div className='relative'>
                     <Link to='/'>

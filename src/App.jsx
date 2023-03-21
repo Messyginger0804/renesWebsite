@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Title />
       {/* <Router></Router> */}
-      <main>
+      <main className="mvh-100">
         <Routes>
           <Route path="/" element={<Home />} />
 
@@ -24,8 +24,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
-
       <Footer />
+
     </div>
   )
 }

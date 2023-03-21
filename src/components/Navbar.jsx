@@ -13,7 +13,7 @@ function Navbar() {
                         </Link>
                     </div>
                     <div className='text-center'>
-                        <h1 className='font-lora font-extrabold text-2xl text-center shadow-md md:text-4xl lg:text-5xl shadow-gray-700'>Top Flight Lawn Service</h1>
+                        <h1 className='font-lora font-extrabold text-2xl text-center md:text-4xl lg:text-5xl'>Top Flight Lawn Service</h1>
                     </div>
                 </div>
 
